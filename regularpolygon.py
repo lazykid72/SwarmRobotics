@@ -35,9 +35,7 @@ ax.add_patch(polygon)
 # Set equal aspect ratio to make the polygon look like a polygon
 #ax.set_aspect('equal', adjustable='box')
 
-# Calculate the distance from each bot to the center and sort the bots by this distance
-distances = np.sqrt(x**2 + y**2)
-sorted_indices = np.argsort(distances)
+
 
 #this is to just number the bots
 for i in range(number_of_bots):
